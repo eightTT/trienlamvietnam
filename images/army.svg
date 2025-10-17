@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="armyBg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1F5F2A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F8B3D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#armyBg)"/>
+  <polygon points="600,100 520,200 680,200" fill="#DA251D" opacity="0.9"/>
+  <rect x="550" y="200" width="100" height="150" fill="#DA251D" opacity="0.9"/>
+  <polygon points="600,200 580,230 620,230" fill="#FFCD00"/>
+  <text x="600" y="450" font-family="Arial, sans-serif" font-size="42" fill="#FFCD00" text-anchor="middle" font-weight="bold">Quân Đội Nhân Dân</text>
+  <text x="600" y="500" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">People's Army</text>
+</svg>

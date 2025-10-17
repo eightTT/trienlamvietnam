@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="histBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B91D15;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DA251D;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#histBg)"/>
+  <polygon points="600,100 580,300 620,300" fill="#FFCD00" opacity="0.8"/>
+  <rect x="560" y="300" width="80" height="50" fill="#FFCD00" opacity="0.8"/>
+  <circle cx="600" cy="250" r="40" fill="#FFCD00"/>
+  <text x="600" y="450" font-family="Arial, sans-serif" font-size="48" fill="#FFCD00" text-anchor="middle" font-weight="bold">Lịch Sử Vẻ Vang</text>
+  <text x="600" y="500" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Glorious History</text>
+</svg>
