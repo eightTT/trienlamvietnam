@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DA251D;stop-opacity:0.3" />
+      <stop offset="50%" style="stop-color:#FFCD00;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#2F8B3D;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgGrad)"/>
+  <polygon points="200,120 180,150 190,180 210,180 220,150" fill="#DA251D" opacity="0.6"/>
+  <text x="200" y="220" font-family="Arial, sans-serif" font-size="24" fill="#DA251D" text-anchor="middle" font-weight="bold">Việt Nam</text>
+</svg>

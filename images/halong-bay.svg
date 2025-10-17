@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#87CEEB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2F8B3D;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#sky)"/>
+  <ellipse cx="300" cy="400" rx="80" ry="150" fill="#2F8B3D" opacity="0.8"/>
+  <ellipse cx="500" cy="380" rx="100" ry="180" fill="#1F5F2A" opacity="0.9"/>
+  <ellipse cx="700" cy="420" rx="70" ry="140" fill="#2F8B3D" opacity="0.8"/>
+  <ellipse cx="900" cy="390" rx="90" ry="170" fill="#1F5F2A" opacity="0.9"/>
+  <rect y="500" width="1200" height="100" fill="#4A90A4"/>
+  <text x="600" y="100" font-family="Arial, sans-serif" font-size="48" fill="#DA251D" text-anchor="middle" font-weight="bold">Vịnh Hạ Long</text>
+  <text x="600" y="150" font-family="Arial, sans-serif" font-size="24" fill="#FFCD00" text-anchor="middle">Ha Long Bay</text>
+</svg>

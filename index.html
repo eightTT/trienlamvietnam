@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triển Lãm Việt Nam - Vietnam Culture & Pride</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>🇻🇳 Triển Lãm Việt Nam</h1>
+                </div>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Trang Chủ</a></li>
+                    <li><a href="#slideshow">Tin Nổi Bật</a></li>
+                    <li><a href="#ceremony">Lễ Hội Dân Tộc</a></li>
+                    <li><a href="#history">Lịch Sử Bảo Vệ</a></li>
+                    <li><a href="#army">Quân Đội Nhân Dân</a></li>
+                    <li><a href="#culture">Văn Hóa</a></li>
+                    <li><a href="#beauty">Thiên Nhiên</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="hero-title">Văn Hóa và Niềm Tự Hào Việt Nam</h2>
+            <p class="hero-subtitle">Vietnam Culture and Pride</p>
+        </div>
+    </section>
+
+    <!-- Trending Slideshow -->
+    <section id="slideshow" class="slideshow-section">
+        <div class="container">
+            <h2 class="section-title">Tin Tức Nổi Bật</h2>
+            <div class="slideshow">
+                <div class="slideshow-container">
+                    <div class="slide active">
+                        <img src="images/halong-bay.svg" alt="Ha Long Bay">
+                        <div class="slide-overlay">
+                            <h3>Vịnh Hạ Long - Di Sản Thế Giới</h3>
+                            <p>Kỳ quan thiên nhiên với hàng nghìn hòn đảo đá vôi, được UNESCO công nhận là Di sản Thiên nhiên Thế giới.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/culture.svg" alt="Vietnamese Culture">
+                        <div class="slide-overlay">
+                            <h3>Văn Hóa Truyền Thống Việt Nam</h3>
+                            <p>Nền văn hóa lâu đời với bốn nghìn năm lịch sử văn hiến, kết tinh từ tinh hoa dân tộc.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/history.svg" alt="Vietnam War Memorial">
+                        <div class="slide-overlay">
+                            <h3>Lịch Sử Vẻ Vang</h3>
+                            <p>Dân tộc Việt Nam anh hùng với truyền thống đấu tranh bất khuất bảo vệ độc lập, chủ quyền.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/army.svg" alt="Vietnamese Army">
+                        <div class="slide-overlay">
+                            <h3>Quân Đội Nhân Dân Việt Nam</h3>
+                            <p>Lực lượng vũ trang nhân dân trung thành với Đảng, hiếu với Dân, sẵn sàng chiến đấu bảo vệ Tổ quốc.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/sapa.svg" alt="Rice Terraces">
+                        <div class="slide-overlay">
+                            <h3>Ruộng Bậc Thang Sapa</h3>
+                            <p>Kiệt tác của con người và thiên nhiên, tạo nên những bức tranh thiên nhiên tuyệt đẹp ở vùng cao Tây Bắc.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn prev" id="prevBtn" aria-label="Previous slide">❮</button>
+                <button class="slide-btn next" id="nextBtn" aria-label="Next slide">❯</button>
+                <div class="slide-dots" id="slideDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- National Ceremony Section -->
+    <section id="ceremony" class="section ceremony-section">
+        <div class="container">
+            <h2 class="section-title">Lễ Hội Dân Tộc</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/placeholder.svg" alt="Tet Festival">
+                    </div>
+                    <div class="card-content">
+                        <h3>Tết Nguyên Đán</h3>
+                        <p>Lễ hội truyền thống lớn nhất trong năm của người Việt Nam, đánh dấu sự chuyển giao giữa năm cũ và năm mới theo âm lịch.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/placeholder.svg" alt="Hung Kings">
+                    </div>
+                    <div class="card-content">
+                        <h3>Giỗ Tổ Hùng Vương</h3>
+                        <p>Ngày 10 tháng 3 âm lịch, toàn dân tộc về Đền Hùng để tưởng nhớ công ơn các vị Vua Hùng dựng nước.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/placeholder.svg" alt="Mid Autumn Festival">
+                    </div>
+                    <div class="card-content">
+                        <h3>Tết Trung Thu</h3>
+                        <p>Ngày hội của trẻ em với đèn lồng, bánh Trung Thu và những câu chuyện truyền thống về Chú Cuội, Chị Hằng.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="section history-section">
+        <div class="container">
+            <h2 class="section-title">Lịch Sử Bảo Vệ Đất Nước</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>938 - Chiến Thắng Bạch Đằng</h3>
+                        <p>Ngô Quyền đánh tan quân Nam Hán, kết thúc hơn 1000 năm Bắc thuộc, mở ra thời kỳ độc lập tự chủ.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>1288 - Chiến Thắng Bạch Đằng Lần Thứ Ba</h3>
+                        <p>Trần Hưng Đạo lãnh đạo quân dân đánh tan 300,000 quân Nguyên-Mông, giữ vững độc lập dân tộc.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>1945 - Cách Mạng Tháng Tám</h3>
+                        <p>Dưới sự lãnh đạo của Chủ tịch Hồ Chí Minh, nhân dân Việt Nam giành chính quyền, lập nên nước Việt Nam Dân chủ Cộng hòa.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>1954 - Chiến Thắng Điện Biên Phủ</h3>
+                        <p>Chiến thắng lịch sử "lừng lẫy năm châu, chấn động địa cầu", đánh bại chủ nghĩa thực dân Pháp.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>1975 - Giải Phóng Miền Nam</h3>
+                        <p>30/4/1975, hoàn thành sự nghiệp giải phóng dân tộc, thống nhất đất nước, mở ra kỷ nguyên mới.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- People's Army Section -->
+    <section id="army" class="section army-section">
+        <div class="container">
+            <h2 class="section-title">Quân Đội Nhân Dân Việt Nam</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/army.svg" alt="Army Establishment">
+                    </div>
+                    <div class="card-content">
+                        <h3>22/12/1944 - Thành Lập</h3>
+                        <p>Quân đội nhân dân Việt Nam được thành lập tại Cao Bằng, đánh dấu bước ngoặt quan trọng của cách mạng Việt Nam.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/army.svg" alt="Army Spirit">
+                    </div>
+                    <div class="card-content">
+                        <h3>Truyền Thống Vẻ Vang</h3>
+                        <p>Trung với Đảng, hiếu với Dân, sẵn sàng chiến đấu hy sinh vì độc lập tự do của Tổ quốc, vì hạnh phúc của nhân dân.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/army.svg" alt="Modern Army">
+                    </div>
+                    <div class="card-content">
+                        <h3>Quân Đội Hiện Đại</h3>
+                        <p>Không ngừng xây dựng và phát triển, từng bước hiện đại hóa để bảo vệ vững chắc Tổ quốc Việt Nam xã hội chủ nghĩa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture Section -->
+    <section id="culture" class="section culture-section">
+        <div class="container">
+            <h2 class="section-title">Văn Hóa Việt Nam</h2>
+            <div class="content-grid">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/culture.svg" alt="Water Puppetry">
+                    </div>
+                    <div class="card-content">
+                        <h3>Múa Rối Nước</h3>
+                        <p>Loại hình nghệ thuật truyền thống độc đáo của Việt Nam, với lịch sử hơn 1000 năm tuổi.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/culture.svg" alt="Ao Dai">
+                    </div>
+                    <div class="card-content">
+                        <h3>Áo Dài Truyền Thống</h3>
+                        <p>Trang phục truyền thống thanh lịch, duyên dáng của phụ nữ Việt Nam, biểu tượng văn hóa dân tộc.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/placeholder.svg" alt="Vietnamese Cuisine">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ẩm Thực Việt Nam</h3>
+                        <p>Nền ẩm thực phong phú, đa dạng với hương vị hài hòa, tinh tế, được thế giới công nhận và yêu thích.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/culture.svg" alt="Ca Tru">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ca Trù - Di Sản UNESCO</h3>
+                        <p>Loại hình ca hát cổ truyền độc đáo, được UNESCO công nhận là Di sản văn hóa phi vật thể đại diện của nhân loại.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/culture.svg" alt="Traditional Music">
+                    </div>
+                    <div class="card-content">
+                        <h3>Nhạc Cụ Dân Tộc</h3>
+                        <p>Đàn tranh, đàn bầu, sáo trúc... những nhạc cụ truyền thống tạo nên âm thanh đặc trưng của dân tộc.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img src="images/placeholder.svg" alt="Calligraphy">
+                    </div>
+                    <div class="card-content">
+                        <h3>Thư Pháp Việt Nam</h3>
+                        <p>Nghệ thuật viết chữ truyền thống, kết hợp giữa chữ Hán và chữ Nôm, thể hiện tinh hoa văn hóa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Natural Beauty Section -->
+    <section id="beauty" class="section beauty-section">
+        <div class="container">
+            <h2 class="section-title">Vẻ Đẹp Thiên Nhiên</h2>
+            <div class="beauty-gallery">
+                <div class="gallery-item large">
+                    <img src="images/halong-bay.svg" alt="Ha Long Bay">
+                    <div class="gallery-overlay">
+                        <h3>Vịnh Hạ Long</h3>
+                        <p>Di sản thiên nhiên thế giới</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/sapa.svg" alt="Sapa">
+                    <div class="gallery-overlay">
+                        <h3>Ruộng Bậc Thang Sapa</h3>
+                        <p>Tây Bắc hùng vĩ</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/placeholder.svg" alt="Phong Nha">
+                    <div class="gallery-overlay">
+                        <h3>Động Phong Nha</h3>
+                        <p>Hệ thống hang động kỳ vĩ</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/placeholder.svg" alt="Hoi An">
+                    <div class="gallery-overlay">
+                        <h3>Phố Cổ Hội An</h3>
+                        <p>Thành phố di sản</p>
+                    </div>
+                </div>
+                <div class="gallery-item large">
+                    <img src="images/placeholder.svg" alt="Mekong Delta">
+                    <div class="gallery-overlay">
+                        <h3>Đồng Bằng Sông Cửu Long</h3>
+                        <p>Miền Tây sông nước</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/culture.svg" alt="Hue">
+                    <div class="gallery-overlay">
+                        <h3>Cố Đô Huế</h3>
+                        <p>Cố đô ngàn năm văn hiến</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Triển Lãm Việt Nam</h3>
+                    <p>Tự hào văn hóa dân tộc, lan tóa giá trị Việt Nam.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Liên Kết</h3>
+                    <ul>
+                        <li><a href="#home">Trang Chủ</a></li>
+                        <li><a href="#ceremony">Lễ Hội</a></li>
+                        <li><a href="#history">Lịch Sử</a></li>
+                        <li><a href="#culture">Văn Hóa</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Theo Dõi</h3>
+                    <p>Cập nhật tin tức văn hóa Việt Nam</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Triển Lãm Việt Nam. Vietnam Culture & Pride.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
